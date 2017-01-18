@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/king_image"
+            android:layout_width="100dp"
+            android:src="@drawable/king_1"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/king_image"
+            android:layout_toEndOf="@+id/king_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:padding="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="Renly Baratheon"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextDefaultLight"
+                android:textStyle="bold"
+                />
+
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/won_image_view"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/won" />
+                <TextView
+                    android:padding="4dp"
+                    android:layout_toEndOf="@+id/won_image_view"
+                    android:layout_toRightOf="@+id/won_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:text="21"
+                    android:id="@+id/won_count_textview"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextDefault"
+                android:text="Rating: 33"
+                />
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/battle_strength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorTextDefault"
+                android:text="Battle Strength: Attack"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

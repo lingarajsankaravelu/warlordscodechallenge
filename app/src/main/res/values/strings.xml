@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Westeros at war!</string>
+    <string name="common_loading">Loading</string>
+    <string name="common_error_messsage">Unable to Connet to Internet</string>
+    <string name="message_no_data">No Data</string>
+
+    !-- king names !-->
+    <string name="renly_baratheon">Renly Baratheon</string>
+    <string name="robb_stark">Robb Stark</string>
+    <string name="stannis_baratheon">Stannis Baratheon</string>
+    <string name="joffrey_tommen_baratheon">Joffrey/Tommen Baratheon</string>
+    <string name="mance_rayder">Mance Rayder</string>
+    <string name="balon_euron">Balon/Euron Greyjoy</string>
+    <!--king names!-->
+
+</resources>
